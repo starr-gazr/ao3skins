@@ -1,0 +1,609 @@
+#outer .region,
+#outer,
+a:visited,
+.splash .news li,
+.group {
+  background: #060e17;
+  color: #f1c3a2;
+  border-bottom: none;
+}
+
+select,
+select:focus,
+.autocomplete div.dropdown ul {
+  background: #061524;
+  color: #f1c3a2;
+  border: hidden;
+  border-radius: 5px;
+  width: 98%;
+  padding: 1px;
+}
+
+#footer {
+  background: #004992;
+  color: #f1c3a2;
+  border: hidden;
+  border-radius: 0;
+}
+
+#main .dropdown {
+  background: inherit;
+}
+
+.javascript,
+#footer .group,
+#outer #footer,
+#header,
+#header ul.primary {
+  background: #004992;
+  color: #f1c3a2;
+}
+
+#main li.blurb {
+  border-color: #88d2db;
+}
+
+#header form {
+  background: none;
+}
+
+#header .actions a[href="/menu/fandoms"],
+#header .actions a[href="/menu/browse"],
+#header .actions a[href="/menu/search"],
+#header .actions a[href="/menu/about"] {
+  color: #f1c3a2;
+}
+
+#header .primary .dropdown:hover a {
+  background: transparent;
+  color: #f1c3a2;
+}
+
+#header .actions a:hover,
+#header .actions a:focus {
+  color: #f1c3a2;
+  background: #0f253d;
+}
+
+#header .dropdown .menu,
+#greeting .dropdown .menu,
+#header .dropdown:hover a,
+#header .dropdown:focus a {
+  background: #004992;
+  border-radius: 8px;
+  border: hidden;
+}
+
+#header #search input[type="text"]:hover,
+#header #search input[type="text"]:focus {
+  border-radius: 8px;
+  border: solid 1px #9c0c33;
+  box-shadow: inset 0 -8px 4px #061524, inset 0 8px 7px #16385e;
+  background: #0f253d;
+  color: #f1c3a2;
+}
+
+#dashboard.own {
+  border-top: none;
+  border-bottom: none;
+}
+
+#dashboard a {
+  background: #0f253d;
+  border: solid 1px #0f253d;
+  margin: 5px;
+}
+
+#dashboard a:hover,
+#dashboard a:focus,
+#dashboard .current {
+  background: #0f253d;
+  border: solid 1px #f1c3a2;
+  margin: 5px;
+}
+
+a:link,
+a:visited,
+#footer a {
+  border-bottom: solid 1px #9c0c33;
+  color: #f1c3a2;
+}
+
+a:hover,
+a:link:hover,
+.blurb h4 a:link:hover,
+a:visited:hover,
+#footer a:hover,
+#footer a:focus {
+  border-bottom: solid 1px #9c0c33;
+  color: rgba(102, 163, 224, 1);
+}
+
+a:visited:hover {
+  border-bottom: solid 1px #9c0c33;
+}
+
+.post fieldset fieldset {
+  background: #080b26;
+  color: #f1c3a2;
+}
+
+fieldset fieldset {
+  background: #0f253d;
+  color: #f1c3a2;
+}
+
+.required {
+  background: #0f253d;
+  color: #f1c3a2;
+}
+
+form.search input[type="text"],
+#header #search input[type="text"] {
+  border-radius: 8px;
+  box-shadow: inset 0 -8px 4px #061524, inset 0 8px 7px #16385e;
+  background: #0f253d;
+  border: solid 1px #0f253d;
+  color: #f1c3a2;
+}
+
+.search [role="tooltip"] {
+  background: #0f253d;
+  border-color: #f1c3a2;
+}
+
+input,
+textarea {
+  box-shadow: inset 0 1px 2px #000;
+  color: #f1c3a2;
+}
+
+a.tag {
+  background: transparent;
+  border-bottom: dotted 1px #9c0c33;
+  border-radius: 5px;
+  padding: 1px;
+  line-height: 1.75;
+  border: hidden;
+}
+
+.blurb h4 a:link,
+a:link,
+.blurb h4 img {
+  background: transparent;
+  color: #f1c3a2;
+}
+
+li.relationships a {
+  background: rgb(127, 13, 43, 0.8);
+  border: hidden;
+  border-radius: 5px;
+}
+
+li.relationships a:hover,
+li.relationships a:focus {
+  background: rgb(127, 13, 43, 0.8);
+  border: hidden;
+  border-radius: 5px;
+  color: rgba(102, 163, 224, 1);
+}
+
+li.blurb,
+.blurb .blurb,
+.listbox .index,
+fieldset fieldset.listbox,
+.dashboard .listbox .index {
+  box-shadow: inset 1px 1px 3px #000;
+}
+
+span.symbol.question {
+  box-shadow: inset 0 -8px 4px #061524, inset 0 8px 7px #16385e;
+  background: #0f253d;
+  border-color: #88d2db;
+  color: #f1c3a2;
+}
+
+span.symbol.question:hover {
+  box-shadow: inset 0 -8px 4px #061524, inset 0 8px 7px #16385e;
+  background: #0f253d;
+  border-color: #9c0c33;
+  color: #88d2db;
+}
+
+a.help.symbol.question.modal.modal-attached,
+#main .filters a:link {
+  border-bottom: none;
+}
+
+#main .filters .expander {
+  box-shadow: inset 0 -8px 4px #061524, inset 0 8px 7px #16385e;
+  background: #0f253d;
+  border: solid 1px transparent;
+  color: #f1c3a2;
+}
+
+#main .filters .expander:hover,
+#main .filters .expander:focus {
+  box-shadow: inset 0 -8px 4px #061524, inset 0 8px 7px #16385e;
+  background: #0f253d;
+  border-color: #9c0c33;
+}
+
+#main .filters dt,
+#main .filters dl,
+#main .filters .group {
+  background: #0f253d;
+  border-color: transparent;
+}
+
+#main .filters input {
+  width: 98%;
+  background: #061524;
+}
+
+body,
+.group .group,
+.region,
+.flash,
+fieldset,
+fieldset fieldset ul,
+form dl,
+textarea,
+#main .verbose legend,
+.verbose fieldset,
+.notice,
+ul.notes,
+input,
+textarea,
+table,
+th,
+td:hover,
+tr:hover,
+.symbol .question:hover,
+#modal,
+.ui-sortable li,
+.required .autocomplete,
+.autocomplete .notice,
+.system .intro,
+.comment_error,
+.kudos_error,
+div.dynamic,
+.dynamic form,
+#ui-datepicker-div,
+.ui-datepicker table {
+  background: #0f253d;
+  border-color: #88d2db;
+  outline: #111;
+  box-shadow: none;
+  border-radius: 8px;
+  color: #f1c3a2;
+}
+
+#header .open a,
+#small_login,
+.group.listbox,
+fieldset fieldset.listbox,
+form blockquote.userstuff,
+input:focus,
+textarea:focus,
+.group.listbox .index,
+.dashboard fieldset fieldset.listbox .index,
+#dashboard a:hover,
+th,
+#dashboard .secondary,
+.secondary,
+.thread .even,
+.system .tweet_list li,
+.ui-datepicker tr:hover {
+  background: #0f253d;
+  color: #f1c3a2;
+  border-color: #88d2db;
+  border-radius: 8px;
+  border-bottom: solid 2px #88d2db;
+}
+
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus,
+.ui-datepicker td:hover,
+#tos_prompt .heading,
+#tos_prompt [disabled] {
+  background: #0f253d;
+  color: #f1c3a2;
+  border: hidden;
+  border-radius: 8px;
+}
+
+.splash .favorite li:nth-of-type(odd) a {
+  background: #060e17;
+  color: #f1c3a2;
+  border: solid 1px #060e17;
+  border-radius: 8px;
+  margin: 2px;
+  padding: 0.25em 0.375em;
+}
+
+.splash .favorite li:nth-of-type(even) a {
+  background: #0f253d;
+  color: #f1c3a2;
+  border: solid 1px #0f253d;
+  border-radius: 8px;
+  margin: 2px;
+  padding: 0.25em 0.375em;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(odd) a:focus {
+  background: #060e17;
+  color: rgba(102, 163, 224, 1);
+  border: solid 1px #9c0c33;
+  border-radius: 8px;
+  margin: 2px;
+}
+
+.splash .favorite li:nth-of-type(even) a:hover,
+.splash .favorite li:nth-of-type(even) a:focus {
+  background: #0f253d;
+  color: rgba(102, 163, 224, 1);
+  border: solid 1px #9c0c33;
+  border-radius: 8px;
+  margin: 2px;
+}
+
+.statistics .index li:nth-of-type(even),
+#tos_prompt,
+.announcement input[type="submit"] {
+  background: #333;
+}
+
+.toggled form {
+  background: #b78ae0;
+  color: #f1c3a2;
+}
+
+#dashboard ul,
+dl.meta,
+fieldset fieldset.listbox,
+form blockquote.userstuff,
+div.comment,
+li.comment,
+.toggled form,
+form dl dt,
+form.single fieldset,
+#inner .module .heading,
+.bookmark .status span,
+.filters .group dt.bookmarker {
+  border-color: #9c0c33;
+  color: #f1c3a2;
+  border-radius: 8px;
+}
+
+.group.listbox,
+fieldset fieldset.listbox,
+#main li.blurb,
+.wrapper,
+#dashboard .secondary,
+.secondary,
+form blockquote.userstuff,
+.thread .comment,
+.toggled form {
+  box-shadow: 1px 1px 3px #000;
+}
+
+.actions a:active,
+#main.current,
+a.current,
+.current a:visited,
+span.unread,
+.replied,
+span.claimed,
+dl.index dd,
+.draft,
+.draft .unread,
+.child,
+.unwrangled,
+.unreviewed,
+.ui-sortable li:hover {
+  background: #370512;
+  border-color: #f1c3a2;
+  box-shadow: inset 0 -8px 4px #370512, inset 0 8px 7px #9c0c33;
+  border-radius: 8px;
+  color: #f1c3a2;
+}
+
+.autocomplete .dropdown ul li:hover,
+.autocomplete .dropdown li.selected,
+a.tag:hover,
+a.tag:focus,
+.listbox .heading a.tag:visited:hover,
+.symbol .question,
+.qtip-content {
+  background: transparent;
+  color: rgba(102, 163, 224, 1);
+  border-radius: 5px;
+  padding: 1px;
+  border: hidden;
+}
+
+#header #greeting img,
+#header .heading a,
+#header .heading a:visited,
+#header .user a:hover,
+#header .user a:focus,
+#dashboard a:hover,
+.actions input:hover,
+.delete a,
+span.delete,
+span.unread,
+.replied,
+span.claimed,
+.draggable,
+.droppable,
+span.requested,
+a.work,
+.splash .module h3,
+.splash .browse li a:before,
+.error,
+.comment_error,
+.kudos_error,
+a.cloud7,
+a.cloud8,
+#tos_prompt .heading {
+  color: #f1c3a2;
+  background: #060e17;
+}
+
+#greeting .icon,
+#dashboard,
+.error,
+.comment_error,
+.kudos_error,
+.LV_invalid,
+.LV_invalid_field,
+input.LV_invalid_field:hover,
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover,
+textarea.LV_invalid_field:active,
+.qtip-content {
+  border-color: #5998D6;
+  border-radius: 8px;
+}
+
+#header a,
+#header a:visited,
+#header .primary .open a,
+#header .primary .dropdown a:focus,
+#dashboard a,
+#dashboard span,
+#dashboard .current,
+.heading,
+.group .heading,
+.filters dt a:hover {
+  background: #004992;
+  border-color: #0e1e51;
+  border-radius: 8px;
+  color: #f1c3a2;
+}
+
+.actions a:visited,
+.action a:link,
+.action a:visited,
+.listbox .heading a:visited,
+span.series .divider {
+  color: #f1c3a2;
+}
+
+#main .actions a,
+#main .actions a:link,
+#main .actions button,
+#main .actions input,
+#main button,
+#main .actions label,
+legend .action:link,
+#main input[type="submit"],
+#header #search .button {
+  background: #370512;
+  border-color: #370512;
+  color: #f1c3a2;
+  box-shadow: inset 0 -8px 4px #370512, inset 0 8px 7px #9c0c33;
+  text-shadow: none;
+  border-radius: 8px;
+  border: solid 1px #370512;
+}
+
+#main .actions button:hover,
+#main .current,
+#main .actions input:hover,
+#main .actions a:link:hover,
+#main .actions a:link:focus,
+legend .action:link:hover,
+#main .actions a:visited:hover,
+#main .actions a:visited:focus,
+#main .actions a:focus,
+#main .actions button:focus,
+.actions input:focus,
+.actions .disabled select,
+#main input[type="submit"]:hover,
+#header #search .button:hover {
+  background: #370512;
+  border-color: #f1c3a2;
+  box-shadow: inset 0 -8px 4px #370512, inset 0 8px 7px #9c0c33;
+  border-radius: 8px;
+  color: #f1c3a2;
+}
+
+.actions a:active,
+.current,
+a.current,
+.current a:visited {
+  color: #f1c3a2;
+  background: #555;
+  border-color: #9de4fe;
+  box-shadow: inset 1px 1px 3px #333;
+  border-radius: 8px;
+}
+
+.delete a,
+span.delete {
+  box-shadow: -1px -1px 2px rgba(255,255,255.25);
+}
+
+.actions label.disabled {
+  background: #222;
+  box-shadow: none;
+}
+
+ul.required-tags,
+.bookmark .status span,
+.blurb .icon {
+  opacity: 0.9;
+  border: 0;
+}
+
+#outer .group .heading,
+#header .actions a,
+fieldset.listbox .heading,
+.userstuff .heading,
+.heading,
+.userstuff h2 {
+  text-shadow: none;
+  color: #f1c3a2;
+  background: none;
+}
+
+#header .actions a,
+fieldset fieldset,
+.mce-container button,
+.actions .disabled select {
+  box-shadow: none;
+}
+
+fieldset fieldset.listbox {
+  outline: none;
+}
+
+form dd.required {
+  color: #f1c3a2;
+}
+
+.mce-container input:focus {
+  background: #9de4fe;
+}
+
+.announcement .userstuff a,
+.announcement .userstuff a:link,
+.announcement .userstuff a:visited:hover {
+  color: #111;
+}
+
+.announcement .userstuff a:visited {
+  color: #f1c3a2;
+}
+
+.announcement .userstuff a:hover,
+.announcement .userstuff a:focus {
+  color: #999;
+}
+
+.event.announcement .userstuff a {
+  color: #eee;
+}
