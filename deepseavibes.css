@@ -225,6 +225,7 @@ span.symbol.question,
   box-shadow: inset 0 -8px 4px #061524, inset 0 8px 7px #16385e;
   background: #0f253d;
   border-color: #88d2db;
+  border-radius: 8px;
   color: #f1c3a2;
 }
 
@@ -233,7 +234,8 @@ span.symbol.question:hover,
   box-shadow: inset 0 -8px 4px #061524, inset 0 8px 7px #16385e;
   background: #0f253d;
   border-color: #9c0c33;
-  color: #88d2db;
+  border-radius: 8px;
+  color: rgba(102, 163, 224, 1);
 }
 
 a[href="#alphabet"] {
@@ -520,7 +522,8 @@ span.series .divider {
 #main .actions label,
 legend .action:link,
 #main input[type="submit"],
-#header #search .button {
+#header #search .button,
+#modal .footer .action.modal-closer {
   background: #370512;
   border-color: #370512;
   color: #f1c3a2;
@@ -543,7 +546,9 @@ legend .action:link:hover,
 .actions input:focus,
 .actions .disabled select,
 #main input[type="submit"]:hover,
-#header #search .button:hover {
+#header #search .button:hover,
+#modal .footer .action.modal-closer:hover,
+#modal .footer .action.modal-closer:focus {
   background: #370512;
   border-color: #f1c3a2;
   box-shadow: inset 0 -8px 4px #370512, inset 0 8px 7px #9c0c33;
