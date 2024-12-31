@@ -145,11 +145,6 @@ a:visited:hover {
   border-bottom: solid 1px #9c0c33;
 }
 
-.post fieldset fieldset {
-  background: #080b26;
-  color: #f1c3a2;
-}
-
 fieldset fieldset {
   background: #0f253d;
   color: #f1c3a2;
