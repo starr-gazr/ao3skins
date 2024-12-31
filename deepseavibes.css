@@ -223,18 +223,24 @@ fieldset fieldset.listbox,
   box-shadow: inset 1px 1px 3px #000;
 }
 
-span.symbol.question {
+span.symbol.question,
+#main span.action.top {
   box-shadow: inset 0 -8px 4px #061524, inset 0 8px 7px #16385e;
   background: #0f253d;
   border-color: #88d2db;
   color: #f1c3a2;
 }
 
-span.symbol.question:hover {
+span.symbol.question:hover,
+#main span.action.top:hover {
   box-shadow: inset 0 -8px 4px #061524, inset 0 8px 7px #16385e;
   background: #0f253d;
   border-color: #9c0c33;
   color: #88d2db;
+}
+
+a[href="#alphabet"] {
+  border-bottom: none;
 }
 
 a.help.symbol.question.modal.modal-attached,
@@ -333,7 +339,6 @@ th,
   margin: 2px;
   padding: 0.25em 0.375em;
   font-size: 100%;
-
 }
 
 .splash .favorite li:nth-of-type(even) a {
@@ -344,7 +349,6 @@ th,
   margin: 2px;
   padding: 0.25em 0.375em;
   font-size: 100%;
-
 }
 
 .splash .favorite li:nth-of-type(odd) a:hover,
