@@ -259,6 +259,12 @@ a.help.symbol.question.modal.modal-attached,
   background: #061524;
 }
 
+#header h2.collections {
+  background: #0f253d;
+  color: #f1c3a2;
+  border-top: 1px solid transparent;
+}
+
 body,
 .group .group,
 .region,
@@ -312,7 +318,7 @@ th,
 .thread .even,
 .system .tweet_list li,
 .ui-datepicker tr:hover {
-  background: #0f253d;
+  background: #0b1d2f;
   color: #f1c3a2;
   border-color: #88d2db;
   border-radius: 8px;
@@ -631,3 +637,4 @@ form dd.required {
 .event.announcement .userstuff a {
   color: #eee;
 }
+
