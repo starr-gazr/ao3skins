@@ -332,6 +332,8 @@ th,
   border-radius: 8px;
   margin: 2px;
   padding: 0.25em 0.375em;
+  font-size: 100%;
+
 }
 
 .splash .favorite li:nth-of-type(even) a {
@@ -341,6 +343,8 @@ th,
   border-radius: 8px;
   margin: 2px;
   padding: 0.25em 0.375em;
+  font-size: 100%;
+
 }
 
 .splash .favorite li:nth-of-type(odd) a:hover,
