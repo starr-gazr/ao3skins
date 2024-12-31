@@ -89,17 +89,35 @@ select:focus,
 }
 
 #dashboard a {
+  color: #f1c3a2;
+  box-shadow: inset 0 -8px 4px #061524, inset 0 8px 7px #16385e;
   background: #0f253d;
-  border: solid 1px #0f253d;
-  margin: 5px;
+  border: solid 1px transparent;
+  margin: 3px;
 }
 
 #dashboard a:hover,
 #dashboard a:focus,
 #dashboard .current {
+  box-shadow: inset 0 -8px 4px #061524, inset 0 8px 7px #16385e;
   background: #0f253d;
-  border: solid 1px #f1c3a2;
-  margin: 5px;
+  border: solid 1px #9c0c33;
+  margin: 3px;
+  color: #f1c3a2;
+}
+
+#main .filters .expander {
+  box-shadow: inset 0 -8px 4px #061524, inset 0 8px 7px #16385e;
+  background: #0f253d;
+  border: solid 1px transparent;
+  color: #f1c3a2;
+}
+
+#main .filters .expander:hover,
+#main .filters .expander:focus {
+  box-shadow: inset 0 -8px 4px #061524, inset 0 8px 7px #16385e;
+  background: #0f253d;
+  border-color: #9c0c33;
 }
 
 a:link,
@@ -165,6 +183,15 @@ a.tag {
   padding: 1px;
   line-height: 1.75;
   border: hidden;
+  font-size: 90%;
+}
+
+ul.tags.commas {
+  border: solid 1px #88d2db;
+  padding: 7px;
+  border-radius: 8px;
+  margin-top: 3px;
+  background: #061524;
 }
 
 .blurb h4 a:link,
@@ -215,20 +242,6 @@ a.help.symbol.question.modal.modal-attached,
   border-bottom: none;
 }
 
-#main .filters .expander {
-  box-shadow: inset 0 -8px 4px #061524, inset 0 8px 7px #16385e;
-  background: #0f253d;
-  border: solid 1px transparent;
-  color: #f1c3a2;
-}
-
-#main .filters .expander:hover,
-#main .filters .expander:focus {
-  box-shadow: inset 0 -8px 4px #061524, inset 0 8px 7px #16385e;
-  background: #0f253d;
-  border-color: #9c0c33;
-}
-
 #main .filters dt,
 #main .filters dl,
 #main .filters .group {
@@ -237,7 +250,7 @@ a.help.symbol.question.modal.modal-attached,
 }
 
 #main .filters input {
-  width: 98%;
+  width: 95%;
   background: #061524;
 }
 
@@ -288,7 +301,6 @@ input:focus,
 textarea:focus,
 .group.listbox .index,
 .dashboard fieldset fieldset.listbox .index,
-#dashboard a:hover,
 th,
 #dashboard .secondary,
 .secondary,
@@ -429,7 +441,6 @@ a.tag:focus,
 #header .heading a:visited,
 #header .user a:hover,
 #header .user a:focus,
-#dashboard a:hover,
 .actions input:hover,
 .delete a,
 span.delete,
@@ -472,9 +483,7 @@ textarea.LV_invalid_field:active,
 #header a:visited,
 #header .primary .open a,
 #header .primary .dropdown a:focus,
-#dashboard a,
 #dashboard span,
-#dashboard .current,
 .heading,
 .group .heading,
 .filters dt a:hover {
@@ -538,7 +547,6 @@ a.current,
   color: #f1c3a2;
   background: #555;
   border-color: #9de4fe;
-  box-shadow: inset 1px 1px 3px #333;
   border-radius: 8px;
 }
 
