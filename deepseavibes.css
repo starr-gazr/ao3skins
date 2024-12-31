@@ -43,6 +43,10 @@ select:focus,
   border-color: #88d2db;
 }
 
+.blurb blockquote {
+  line-height: 1.7;
+}
+
 #header form {
   background: none;
 }
@@ -183,7 +187,6 @@ a.tag {
   padding: 1px;
   line-height: 1.7;
   border: hidden;
-  font-size: 90%;
 }
 
 ul.tags.commas {
