@@ -181,16 +181,15 @@ a.tag {
   border-bottom: dotted 1px #9c0c33;
   border-radius: 5px;
   padding: 1px;
-  line-height: 1.75;
+  line-height: 1.7;
   border: hidden;
   font-size: 90%;
 }
 
 ul.tags.commas {
-  border: solid 1px #88d2db;
+  border: hidden;
   padding: 7px;
   border-radius: 8px;
-  margin-top: 3px;
   background: #061524;
 }
 
@@ -378,6 +377,12 @@ th,
 .toggled form {
   background: #b78ae0;
   color: #f1c3a2;
+}
+
+.bookmark .user .meta {
+  line-height: 1;
+  display: inline-block;
+  padding-right: 1.5px;
 }
 
 #dashboard ul,
