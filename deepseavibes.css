@@ -199,14 +199,14 @@ a:link,
 }
 
 li.relationships a {
-  background: rgb(127, 13, 43, 0.8);
+  background: rgba(127, 13, 43, 0.8);
   border: hidden;
   border-radius: 5px;
 }
 
 li.relationships a:hover,
 li.relationships a:focus {
-  background: rgb(127, 13, 43, 0.8);
+  background: rgba(127, 13, 43, 0.8);
   border: hidden;
   border-radius: 5px;
   color: rgba(102, 163, 224, 1);
@@ -293,6 +293,7 @@ tr:hover,
 .kudos_error,
 div.dynamic,
 .dynamic form,
+.toggled form,
 #ui-datepicker-div,
 .ui-datepicker table {
   background: #0f253d;
@@ -301,6 +302,10 @@ div.dynamic,
   box-shadow: none;
   border-radius: 8px;
   color: #f1c3a2;
+}
+
+.toggled form {
+  margin-top: 12px;
 }
 
 #header .open a,
@@ -380,11 +385,6 @@ th,
   background: #333;
 }
 
-.toggled form {
-  background: #b78ae0;
-  color: #f1c3a2;
-}
-
 .bookmark .user .meta {
   line-height: 1;
   display: inline-block;
@@ -397,7 +397,6 @@ fieldset fieldset.listbox,
 form blockquote.userstuff,
 div.comment,
 li.comment,
-.toggled form,
 form dl dt,
 form.single fieldset,
 #inner .module .heading,
@@ -427,7 +426,6 @@ a.current,
 span.unread,
 .replied,
 span.claimed,
-dl.index dd,
 .draft,
 .draft .unread,
 .child,
@@ -439,6 +437,13 @@ dl.index dd,
   box-shadow: inset 0 -8px 4px #370512, inset 0 8px 7px #9c0c33;
   border-radius: 8px;
   color: #f1c3a2;
+}
+
+dl.index dd {
+  background: rgba(127, 13, 43, 0.8);
+  border-radius: 5px;
+  padding: 1px;
+  border: hidden;
 }
 
 .autocomplete .dropdown ul li:hover,
@@ -541,6 +546,7 @@ legend .action:link,
 
 #main .actions button:hover,
 #main .current,
+#main a.current,
 #main .actions input:hover,
 #main .actions a:link:hover,
 #main .actions a:link:focus,
@@ -637,4 +643,3 @@ form dd.required {
 .event.announcement .userstuff a {
   color: #eee;
 }
-
