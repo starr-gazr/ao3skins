@@ -1,0 +1,639 @@
+#footer .group,
+.post fieldset fieldset,
+fieldset fieldset {
+  background: none;
+}
+
+#main.dashboard {
+  margin: 0;
+}
+
+#dashboard ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+#dashboard {
+  background: transparent;
+  width: 100%;
+  float: none;
+}
+
+#body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading,
+.userstuff,
+.current,
+#outer .current,
+#dashboard a,
+#header .actions a,
+#header .heading,
+.actions input,
+input,
+#main,
+#work,
+#footer,
+textarea {
+  font-family: monospace;
+}
+
+.userstuff,
+.current,
+#outer .current,
+#dashboard a,
+#header .actions a,
+#header .heading,
+.actions input,
+input,
+#main,
+#work,
+#footer,
+textarea {
+  font-family: monospace;
+}
+
+#workskin {
+  background: rgba(75, 91, 117, 0.45);
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 3em;
+  padding-top: 1.5em;
+  margin: 0.75em 0;
+  max-width: 100%;
+  font-size: 11px;
+  text-align: justify;
+}
+
+#workskin .preface.group {
+  margin: 0.5em 0;
+  padding: 0.75em 0.75em 0;
+  background: transparent;
+}
+
+#workskin .preface .title {
+  padding-bottom: 1em;
+}
+
+#header {
+  background: url(https://rare-gallery.com/uploads/posts/943435-space-Moon-galaxy-dark-stars-Sun-lightning-clouds.jpg);
+  background-size: cover;
+  padding: 30px 0;
+  border-bottom: solid thin #fee5ce;
+  background-position: center;
+}
+
+#inner.wrapper {
+  background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(43, 54, 71, 1) 27%, rgba(101, 125, 161, 1) 55%, rgba(222, 166, 177, 1) 85%, rgba(255, 223, 201, 1) 100%);
+}
+
+#main {
+  background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(43, 54, 71, 1) 27%, rgba(101, 125, 161, 1) 55%, rgba(222, 166, 177, 1) 85%, rgba(255, 223, 201, 1) 100%);
+}
+
+#header .heading a,
+#header .primary .dropdown a:focus,
+#header .heading a:visited,
+#main .pagination .current,
+h2 {
+  color: #e7c2cb;
+}
+
+form.verbose legend {
+  background: #fee5ce;
+  color: #43526b;
+  padding: 0.5em;
+  border: #fee5ce;
+  box-shadow: 0px 0px 16px 10px #fee5ce;
+  opacity: 0.85;
+}
+
+legend .action:link {
+  background: #fee5ce;
+  color: #43526b;
+  font-size: 11px;
+  font-style: italic;
+  box-shadow: none;
+  border: none;
+}
+
+form .notice,
+form ul.notes {
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+form dl,
+fieldset,
+.verbose fieldset {
+  margin-top: 1.5em;
+}
+
+dl.work.meta.group {
+  padding: 2.5em;
+}
+
+input[type=submit],
+.actions input,
+.actions a,
+.actions a:link,
+.actions li input,
+button,
+.actions label #header .actions a {
+  background: #fee5ce;
+  color: #43526b;
+  box-shadow: inset 0px 0px 17px 5px #fee5ce;
+  border: none;
+}
+
+#main ul.navigation.actions {
+  margin-bottom: 1em;
+  padding-top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5em;
+  width: 100%;
+  justify-content: flex-end;
+  border-bottom: #fee5ce solid;
+  padding-bottom: 1em;
+}
+
+#main .actions {
+  margin-left: 0.5em;
+}
+
+#header .actions a[href="/menu/fandoms"],
+#header .actions a[href="/menu/browse"],
+#header .actions a[href="/menu/search"],
+#header .actions a[href="/menu/about"] {
+  color: #fff;
+}
+
+#footer ul {
+  background: rgba(254, 229, 206, 0.25);
+  font-size: 11px;
+  color: #0e1016;
+}
+
+#footer {
+  background: url(https://rare-gallery.com/uploads/posts/589423-fog-wallpaper.jpg);
+  background-size: 5000px;
+  background-position-y: 2300px;
+  border-top-style: solid;
+  border-top-color: #0e1016;
+}
+
+#footer ul li:nth-child(1) ul,
+#footer ul li:nth-child(2) ul,
+#footer ul li:nth-child(3) ul,
+#footer ul li:nth-child(4) ul {
+  background: rgba(0, 0, 0, 0.0);
+}
+
+#footer ul li ul li a,
+#footer h4.heading {
+  color: #0e1016;
+}
+
+#header .primary {
+  background: transparent;
+}
+
+input[type="text"],
+textarea,
+select {
+  background: rgba(75, 91, 117, 0.45);
+  color: #fff;
+}
+
+input[type=submit],
+.actions input,
+.actions a,
+.actions a:link,
+.actions li input {
+  background: #fee5ce;
+  color: #43526b;
+  box-shadow: 0px 0px 17px 5px #fee5ce;
+  border: none;
+}
+
+span.current {
+  background: #fee5ce;
+  color: #43526b;
+  box-shadow: 0px 0px 17px 5px #fee5ce;
+  border: none;
+}
+
+select:focus {
+  background: #2a2a2a;
+}
+
+option {
+  background: #555;
+  color: #fff;
+}
+
+#work form fieldset.work.meta dl dd.warning.required fieldset,
+#main form fieldset.work.meta dl dd.warning.required fieldset {
+  color: #fff;
+}
+
+#bookmark-form form {
+  background: #2a2a2a;
+  color: #fff;
+  font-family: monospace;
+}
+
+#error {
+  color: #191919;
+}
+
+fieldset,
+.verbose fieldset {
+  border-color: #404040;
+  background: rgba(75, 91, 117, 0.45);
+  border: 1px solid #595959;
+}
+
+.search [role=tooltip] {
+  background: #333;
+  border: 1px solid #666;
+}
+
+#main a:visited {
+  color: #ccc;
+}
+
+#main a.tag:visited:hover {
+  color: #111;
+}
+
+body,
+.group,
+.group .group,
+.region,
+.flash,
+form dl,
+.notice,
+ul.notes,
+table,
+th,
+td:hover,
+tr:hover,
+.symbol .question:hover,
+#modal,
+.ui-sortable li,
+.required .autocomplete,
+.autocomplete .notice,
+.system .intro,
+.comment_error,
+.kudos_error,
+div.dynamic,
+.dynamic form,
+#ui-datepicker-div,
+.ui-datepicker table {
+  background: transparent;
+  color: #eee;
+  border-color: #222;
+  outline: #111;
+  box-shadow: none;
+}
+
+.group,
+.group .group {
+  background: rgba(75, 91, 117, 0.45);
+  color: #eee;
+  border-bottom-color: #fee5ce;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  outline: #111;
+  box-shadow: none;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .menu,
+#small_login,
+.group.listbox,
+fieldset fieldset.listbox,
+.listbox,
+form blockquote.userstuff,
+form textarea,
+#main blockquote,
+input:focus,
+textarea:focus,
+li.relationships a,
+.group.listbox .index,
+.dashboard fieldset fieldset.listbox .index,
+#dashboard a:hover,
+th,
+#dashboard .secondary,
+.secondary,
+.thread .even,
+.system .tweet_list li,
+.ui-datepicker tr:hover {
+  background: rgba(75, 91, 117, 0.45);
+  padding: 1em;
+}
+
+#main blockquote.userstuff {
+  background: transparent;
+}
+
+a,
+a.tag,
+a:link,
+#header a:visited,
+#header .primary .open a,
+#header .primary .dropdown:hover a,
+#header #search input:focus,
+#header #search input:hover,
+.userstuff h2,
+#dashboard a,
+#dashboard span,
+#dashboard .current,
+.group .heading,
+.filters dt a:hover {
+  color: #fff;
+}
+
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus,
+.ui-datepicker td:hover,
+#tos_prompt .heading,
+#tos_prompt [disabled] {
+  background: #111;
+  color: #fff;
+  padding: 0.5em 1em;
+}
+
+#outer,
+.javascript,
+.statistics .index li:nth-of-type(even),
+#tos_prompt,
+.announcement input[type="submit"] {
+  background: rgba(0, 0, 0, 1);
+}
+
+#dashboard ul,
+dl.meta,
+.group.listbox,
+fieldset fieldset.listbox,
+#main li.blurb,
+form blockquote.userstuff,
+div.comment,
+li.comment,
+.toggled form,
+form dl dt,
+form.single fieldset,
+#inner .module .heading,
+.bookmark .status span,
+.splash .news li,
+.filters .group dt.bookmarker {
+  border-color: #ffe8b4;
+}
+
+.splash .news li,
+li.comment {
+  padding: 1.5em;
+}
+
+.group.listbox,
+fieldset fieldset.listbox,
+#main li.blurb,
+.wrapper,
+#dashboard .secondary,
+.secondary,
+form blockquote.userstuff,
+.thread .comment,
+.toggled form {
+  box-shadow: 1px 1px 3px #000;
+}
+
+#dashboard .current,
+.actions a:active,
+a.current,
+.current a:visited,
+span.unread,
+.replied,
+span.claimed,
+dl.index dd,
+.own,
+.draft,
+.draft .unread,
+.child,
+.unwrangled,
+.unreviewed,
+.ui-sortable li:hover {
+  background: #000;
+  border-color: #555;
+  box-shadow: -1px -1px 3px #000;
+}
+
+input,
+textarea {
+  box-shadow: inset 0 1px 2px #000;
+}
+
+li.blurb,
+.blurb .blurb,
+.listbox .index,
+fieldset fieldset.listbox,
+.dashboard .listbox .index {
+  box-shadow: inset 1px 1px 3px #000;
+}
+
+#footer a:hover,
+#footer a:focus,
+.autocomplete .dropdown ul li:hover,
+.autocomplete .dropdown li.selected,
+a.tag:hover,
+.listbox .heading a.tag:visited:hover,
+.symbol .question {
+  background: #ffedc5;
+  border-color: #988352;
+  color: #111;
+}
+
+#header #greeting img,
+#header .user a:hover,
+#header .user a:focus,
+#header fieldset,
+#header form,
+#header p,
+#dashboard a:hover,
+.actions a:hover,
+.actions input:hover,
+.delete a,
+span.delete,
+span.unread,
+.replied,
+span.claimed,
+.draggable,
+.droppable,
+span.requested,
+a.work,
+.blurb h4 a:link,
+.blurb h4 img,
+.splash .module h3,
+.splash .browse li a:before,
+.required,
+.error,
+.comment_error,
+.kudos_error,
+a.cloud7,
+a.cloud8,
+#tos_prompt .heading {
+  color: #ffe8b4;
+}
+
+#greeting .icon,
+#dashboard.own,
+.error,
+.comment_error,
+.kudos_error,
+.LV_invalid,
+.LV_invalid_field,
+input.LV_invalid_field:hover,
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover,
+textarea.LV_invalid_field:active,
+.qtip-content {
+  border-bottom: solid thin #fee5ce;
+  background: rgba(75, 91, 117, 0.45);
+}
+
+.splash .favorite li:nth-of-type(odd) a,
+.splash .favorite li:nth-of-type(even) a {
+  background: rgba(75, 91, 117, 0.45);
+  color: #fff;
+  padding: 0.5em 1.5em;
+  border-bottom: solid thin #fee5ce;
+  margin: 0.5em 0;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(odd) a:focus .splash .favorite li:nth-of-type(odd) a:visited:hover,
+.splash .favorite li:nth-of-type(even) a:hover,
+.splash .favorite li:nth-of-type(even) a:focus .splash .favorite li:nth-of-type(odd) a:visited:hover {
+  background: #fee5ce;
+  color: #111;
+  margin: 0.5em 0;
+  box-shadow: 0px 0px 17px 5px #fee5ce;
+}
+
+.splash .favorite li:nth-of-type(odd) a:visited:focus,
+.splash .favorite li:nth-of-type(even) a:visited:focus {
+  color: #e7c2cb;
+  background: #fee5ce;
+  box-shadow: 0px 0px 17px 5px #fee5ce;
+  margin: 0.5em 0;
+}
+
+a:visited,
+.actions a:visited,
+.action a:link,
+.action a:visited,
+.listbox .heading a:visited,
+span.series .divider {
+  color: #999;
+}
+
+.actions a:hover,
+.actions input:hover,
+#dashboard a:hover,
+.actions a:focus,
+.actions input:focus,
+#dashboard a:focus,
+.actions .disabled select {
+  color: #999;
+  border-bottom: solid thin #fee5ce;
+  box-shadow: inset 2px 2px 2px #000;
+}
+
+.actions a:active,
+.current,
+a.current,
+.current a:visited {
+  color: #fff;
+  background: #555;
+  border-bottom: solid thin #fee5ce;
+  box-shadow: inset 1px 1px 3px #191919;
+}
+
+.delete a,
+span.delete {
+  box-shadow: -1px -1px 2px rgba(255,255,255.25);
+}
+
+.actions label.disabled {
+  background: #222;
+  box-shadow: none;
+}
+
+ul.required-tags,
+.bookmark .status span,
+.blurb .icon {
+  opacity: 0.9;
+  border: 0;
+}
+
+#header .actions a,
+fieldset.listbox .heading,
+.userstuff .heading {
+  text-shadow: none;
+  color: #fff;
+  background: none;
+}
+
+#header .actions a,
+fieldset fieldset,
+.mce-container button,
+.filters .expander,
+.actions .disabled select {
+  box-shadow: none;
+}
+
+fieldset fieldset.listbox {
+  outline: none;
+}
+
+form dd.required {
+  color: #eee;
+}
+
+.mce-container input:focus {
+  background: #F3EFEC;
+}
+
+.announcement .userstuff a,
+.announcement .userstuff a:link,
+.announcement .userstuff a:visited:hover {
+  color: #111;
+}
+
+.announcement .userstuff a:visited {
+  color: #666;
+}
+
+.announcement .userstuff a:hover,
+.announcement .userstuff a:focus {
+  color: #999;
+}
+
+.event.announcement .userstuff a,
+.filters .expander {
+  color: #eee;
+}
