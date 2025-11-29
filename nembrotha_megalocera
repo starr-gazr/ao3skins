@@ -6,12 +6,7 @@ a:visited {
   border-bottom: none;
 }
 
-.filtered .index {
-  width: 70%;
-  float: left;
-}
-
-#main .userstuff hr {
+width: 70%; float: left; #main .userstuff hr {
   border: none;
   width: 0;
   margin: 0;
@@ -106,6 +101,7 @@ option,
   border: #e59626 1.5px solid;
   background: rgba(0, 0, 0, 0.3);
   border-radius: 4px;
+  margin-right: 1.125em;
 }
 
 .blurb blockquote {
@@ -780,6 +776,7 @@ legend .action:link,
 
 #main .actions a:hover,
 #main .actions a:focus,
+#main .actions a.current,
 #main .actions button:hover,
 #main button a:hover,
 span.current,
